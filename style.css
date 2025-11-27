@@ -13,4 +13,19 @@ h1 {
     text-shadow: 1px 1px 2px rga (0, 0, 0, 0.1);
 }
 
-.game-container
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px 0;
+    border: 3px solid #006bff;
+    background-color: #006bff;
+}
+
+.cell {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
